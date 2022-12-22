@@ -1,0 +1,27 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "server for the chat application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "giacomocassano",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.2"
+  },
+  "dependencies": {
+    "celebrate": "^15.0.1",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.27.0",
+    "socket.io": "^4.5.4",
+    "socket.io-events": "^0.4.6",
+    "uuid": "^9.0.0"
+  }
+}
